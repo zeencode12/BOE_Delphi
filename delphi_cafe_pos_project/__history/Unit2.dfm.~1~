@@ -1,0 +1,95 @@
+object FormLogin: TFormLogin
+  Left = 0
+  Top = 0
+  Caption = 'FormLogin'
+  ClientHeight = 441
+  ClientWidth = 624
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OnCreate = FormCreate
+  TextHeight = 15
+  object Label1: TLabel
+    Left = 136
+    Top = 64
+    Width = 312
+    Height = 45
+    Caption = 'WELCOME KASIRKU'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -33
+    Font.Name = 'Nirmala Text'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 136
+    Top = 152
+    Width = 116
+    Height = 25
+    Caption = 'Username :'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -23
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 136
+    Top = 208
+    Width = 111
+    Height = 25
+    Caption = 'Password :'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -23
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edUser: TEdit
+    Left = 272
+    Top = 146
+    Width = 161
+    Height = 36
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edPass: TEdit
+    Left = 272
+    Top = 202
+    Width = 161
+    Height = 36
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btnLogin: TButton
+    Left = 264
+    Top = 280
+    Width = 145
+    Height = 41
+    Caption = 'LOGIN'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -23
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = btnLoginClick
+  end
+end

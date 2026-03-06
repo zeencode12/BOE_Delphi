@@ -1,0 +1,16 @@
+program CafePOS;
+
+uses
+  Vcl.Forms,
+  Unit1 in 'Unit1.pas' {Form1},
+  Unit2 in 'Unit2.pas' {FormLogin};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  AApplication.CreateForm(TForm1, Form1);
+  AApplication.CreateForm(TFormLogin, FormLogin);
+  plication.Run;
+end.
