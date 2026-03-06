@@ -1,0 +1,103 @@
+object Form1: TForm1
+  Caption = 'Cafe POS'
+  ClientHeight = 500
+  ClientWidth = 800
+  OnCreate = FormCreate
+  object PanelMenu: TPanel
+    Left = 0
+    Top = 0
+    Width = 400
+    Height = 500
+  end
+  object PanelOrder: TPanel
+    Left = 400
+    Top = 0
+    Width = 400
+    Height = 500
+  end
+  object imgCoffee: TImage
+    Left = 20
+    Top = 20
+    Width = 150
+    Height = 120
+  end
+  object btnCoffee: TButton
+    Left = 20
+    Top = 150
+    Caption = 'Coffee'
+    OnClick = btnCoffeeClick
+  end
+  object imgLatte: TImage
+    Left = 200
+    Top = 20
+    Width = 150
+    Height = 120
+  end
+  object btnLatte: TButton
+    Left = 200
+    Top = 150
+    Caption = 'Latte'
+    OnClick = btnLatteClick
+  end
+  object imgTea: TImage
+    Left = 20
+    Top = 220
+    Width = 150
+    Height = 120
+  end
+  object btnTea: TButton
+    Left = 20
+    Top = 350
+    Caption = 'Tea'
+    OnClick = btnTeaClick
+  end
+  object imgCroissant: TImage
+    Left = 200
+    Top = 220
+    Width = 150
+    Height = 120
+  end
+  object btnCroissant: TButton
+    Left = 200
+    Top = 350
+    Caption = 'Croissant'
+    OnClick = btnCroissantClick
+  end
+  object StringGrid1: TStringGrid
+    Left = 420
+    Top = 20
+    Width = 360
+    Height = 250
+  end
+  object edTotal: TEdit
+    Left = 600
+    Top = 300
+    Width = 120
+  end
+  object edBayar: TEdit
+    Left = 600
+    Top = 330
+    Width = 120
+    OnChange = edBayarChange
+  end
+  object edKembali: TEdit
+    Left = 600
+    Top = 360
+    Width = 120
+  end
+  object btnSimpan: TButton
+    Left = 600
+    Top = 400
+    Caption = 'Simpan Transaksi'
+    OnClick = btnSimpanClick
+  end
+  object ADOConnection1: TADOConnection
+    Left = 750
+    Top = 20
+  end
+  object ADOQuery1: TADOQuery
+    Connection = ADOConnection1
+    Left = 750
+    Top = 60
+  end
+end
