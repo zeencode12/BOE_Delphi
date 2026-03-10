@@ -1,0 +1,58 @@
+inherited FormBeranda_LgXhdpiPh: TFormBeranda_LgXhdpiPh
+  ClientHeight = 696
+  ClientWidth = 448
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  inherited PanelOrder: TPanel
+    Position.Y = 329.000000000000000000
+    Size.Width = 385.000000000000000000
+    inherited StringGrid1: TStringGrid
+      Position.X = 8.000000000000000000
+      Position.Y = 164.000000000000000000
+      Size.Width = 377.000000000000000000
+      Viewport.Width = 377.000000000000000000
+      Viewport.Height = 228.000000000000000000
+    end
+    inherited btnSimpan: TButton
+      Position.Y = 120.000000000000000000
+      Size.Height = 36.000000000000000000
+    end
+    inherited Button1: TButton
+      Position.Y = 120.000000000000000000
+      Size.Height = 36.000000000000000000
+    end
+    inherited btnHapus: TButton
+      Position.Y = 120.000000000000000000
+      Size.Height = 36.000000000000000000
+      OnClick = btnHapusClick
+    end
+  end
+  inherited Header: TToolBar
+    Size.Width = 448.000000000000000000
+    inherited lblTitle: TLabel
+      Size.Width = 143.000000000000000000
+    end
+  end
+  inherited PanelMenu: TPanel
+    Size.Width = 385.000000000000000000
+    inherited imgCoffee: TImage
+      MultiResBitmap.Height = 200
+      MultiResBitmap.Width = 200
+    end
+    inherited imgLatte: TImage
+      MultiResBitmap.Height = 200
+      MultiResBitmap.Width = 200
+    end
+    inherited imgTea: TImage
+      MultiResBitmap.Height = 200
+      MultiResBitmap.Width = 200
+    end
+    inherited imgCroissant: TImage
+      MultiResBitmap.Height = 200
+      MultiResBitmap.Width = 200
+    end
+    inherited edBayar: TEdit
+      KeyboardType = NumberPad
+    end
+  end
+end

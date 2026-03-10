@@ -1,0 +1,51 @@
+inherited FormLogin_LgXhdpiPh: TFormLogin_LgXhdpiPh
+  ClientHeight = 696
+  ClientWidth = 448
+  DesignerMasterStyle = 0
+  inherited Button1: TButton
+    Position.X = 127.000000000000000000
+    Position.Y = 424.000000000000000000
+    Size.Width = 138.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited edUser: TEdit
+    TextSettings.FontColor = claWhite
+    Position.X = 168.000000000000000000
+    Position.Y = 304.000000000000000000
+    StyledSettings = [Family, Size, Style]
+  end
+  inherited edPass: TEdit
+    TextSettings.FontColor = claWhite
+    Position.X = 168.000000000000000000
+    Position.Y = 360.000000000000000000
+    StyledSettings = []
+  end
+  inherited Label2: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 309.000000000000000000
+    Size.Width = 89.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Label3: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 369.000000000000000000
+    Size.Width = 89.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited Label4: TLabel
+    Position.X = 143.000000000000000000
+    Position.Y = 496.000000000000000000
+    TextSettings.Font.Family = 'Comic Sans MS'
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000100000004000000}
+  end
+  inherited Rectangle1: TRectangle
+    Corners = [TopLeft, BottomLeft, BottomRight]
+    Position.X = 143.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 138.000000000000000000
+    Size.Height = 129.000000000000000000
+  end
+end
